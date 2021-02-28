@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    
+    <div id="rangeWrap">
+        <input type="range" min="0" max="255" id="red">
+        <input type="range" min="0" max="255" id="green">
+        <input type="range" min="0" max="255" id="blue">
+    </div>
+
+    <div id="check">
+        <input type="checkbox" id="hashCheck">
+        <label for="hashCheck">copy with <b>#</b> ?</label>
+    </div>
+    <div id="colorPreview"></div>
+
     <script src="./popup.js"></script>
 </body>
 </html>

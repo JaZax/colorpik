@@ -1,4 +1,62 @@
-body {
-  background: pink;
+body #rangeWrap input[type="range"] {
+  webkit-appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 5px;
+  background: #cfcfcf;
+  height: .5rem;
+}
+
+body #rangeWrap input[type="range"]::-webkit-slider-thumb {
+  webkit-appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
+  border-radius: 100%;
+  width: 1rem;
+  height: 1rem;
+}
+
+body #rangeWrap input[type="range"]:focus {
+  outline: none;
+}
+
+body #rangeWrap #red {
+  margin-bottom: 5vh;
+}
+
+body #rangeWrap #red::-webkit-slider-thumb {
+  background: #ff0000;
+}
+
+body #rangeWrap #green {
+  margin-bottom: 5vh;
+}
+
+body #rangeWrap #green::-webkit-slider-thumb {
+  background: #03da03;
+}
+
+body #rangeWrap #blue {
+  margin-bottom: 10vh;
+}
+
+body #rangeWrap #blue::-webkit-slider-thumb {
+  background: #0000ff;
+}
+
+body #check {
+  border: 2px solid #313131;
+  border-bottom: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #colorPreview {
+  border: 2px solid #313131;
+  height: 40vh;
 }
 /*# sourceMappingURL=style.css.map */
