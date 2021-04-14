@@ -3,7 +3,6 @@ body #rangeWrap input[type="range"] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  border-radius: 5px;
   background: #cfcfcf;
   height: .5rem;
 }
@@ -12,7 +11,6 @@ body #rangeWrap input[type="range"]::-webkit-slider-thumb {
   webkit-appearance: none;
   -webkit-appearance: none;
           appearance: none;
-  border-radius: 100%;
   width: 1rem;
   height: 1rem;
 }
@@ -46,9 +44,9 @@ body #rangeWrap #blue::-webkit-slider-thumb {
 }
 
 body #check {
-  border: 2px solid #313131;
+  border: 2px solid #999999;
   border-bottom: none;
-  padding: 0;
+  padding: 1vh;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,7 +54,8 @@ body #check {
 }
 
 body #colorPreview {
-  border: 2px solid #313131;
+  background: #ffffff;
+  border: 2px solid #999999;
   height: 40vh;
 }
 /*# sourceMappingURL=style.css.map */
